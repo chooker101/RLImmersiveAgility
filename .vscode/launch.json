@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "RuneLite Client",
+        "request": "launch",
+        "cwd": "${workspaceFolder}\\runelite-client\\src\\main\\java\\net\\runelite\\client",
+        "console": "integratedTerminal",
+        "stopOnEntry": false,
+        "mainClass": "net.runelite.client.RuneLite",
+        "vmArgs": "-Xmx512m",
+        "args": "",
+        "env": {},
+        "preLaunchTask": "MVN Compile"
+      }
+    ]
+}

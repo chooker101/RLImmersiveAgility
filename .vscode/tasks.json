@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "MVN Clean",
+            "type": "shell",
+            "command": "mvn clean"
+        },
+        {
+            "label": "MVN Install",
+            "type": "shell",
+            "command": "mvn install",
+            "dependsOrder": "sequence",
+            "dependsOn": ["MVN Clean"]
+        },
+        {
+            "label": "MVN Compile",
+            "type": "shell",
+            "command": "mvn compile"
+        }
+      ]
+    }
